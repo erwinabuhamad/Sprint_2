@@ -1,9 +1,9 @@
-enum JENISKELAMIN { LAKI, PEREMPUAN }
+enum JENISKELAMINS { LAKI, PEREMPUAN }
 
 void main() {
-  JENISKELAMIN jeniskelamin = JENISKELAMIN.LAKI;
+  JENISKELAMINS jeniskelamin = JENISKELAMINS.LAKI;
 
-  if (jeniskelamin == JENISKELAMIN.LAKI) {
+  if (jeniskelamin == JENISKELAMINS.LAKI) {
     print('Jenis Kelamin adalah Laki-Laki');
   } else {
     print('Jenis Kelamin Perempuan');
