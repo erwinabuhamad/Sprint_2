@@ -22,3 +22,4 @@ class Hewan {
 void fungsi() {
   print('Ini adalah fungsi');
 }
+//Test
